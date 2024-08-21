@@ -1,14 +1,16 @@
-body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Quicksand:wght@400;600&family=Nunito:wght@400;600&display=swap');
+
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #fcd1d7;
-  }
-  
-  h1 {
-    font-size: 36px;
-  }
-  
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffe7de;
+    color: #562135;
+    text-align: center;
+}
   
   
