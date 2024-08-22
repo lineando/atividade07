@@ -37,4 +37,16 @@ nav ul {
     margin: 0;
 }
 
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #562135;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
   
