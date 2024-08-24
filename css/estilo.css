@@ -112,3 +112,35 @@ footer a {
 footer a:hover {
     color: #e9b1cd;
 }
+
+#criadoras, #personagens-principais {
+    text-align: left;
+}
+
+.produto, .personagem {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1%;
+    box-sizing: border-box;
+}
+
+.produto:hover, .personagem:hover {
+    background-color: #e9b1cd;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    padding: 10px;
+}
+#criadoras img {
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+}
+
+#criadoras .criadora {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+    text-align: center;
+}
