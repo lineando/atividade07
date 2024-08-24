@@ -3,10 +3,34 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    padding: 0;
     margin: 0;
+    padding: 0;
     background-color: #ffe7de;
     color: #562135;
     text-align: center;
     padding: 20px;
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #562135;
+}
+
+h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #c3892e;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fcd1d7;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
