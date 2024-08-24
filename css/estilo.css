@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
-/* Estilo base */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -11,41 +10,62 @@ body {
     text-align: center;
 }
 
-/* Títulos */
 h1 {
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 50px;
+    color: #562135;
+    margin: 0;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    color: #505477;
-    font-size: 50px;
-    text-decoration: underline wavy #d3005b;
+    color: #901f3b;
+    font-size: 40px;
+    text-decoration: underline #d3005b;
+    margin: 2;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    color: #901f3b;
-}
-
-/* Layout */
-header, main, footer {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-    border-radius: 0;
+    color: 	#541f1f;
 }
 
 header {
     background-color: #ffc2c2;
+    max-width: 1200px;
+    margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
 }
 
-main, footer {
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.logo-imagem {
+    width: 100px;
+}
+
+header h1 {
+    font-size: 
+    80px;
+    margin: 0;
+}
+
+main {
     background-color: #fcd1d7;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-/* Navegação e Botões */
 .menu-navegacao, footer ul {
     list-style: none;
     padding: 0;
@@ -74,11 +94,6 @@ main, footer {
 
 .botao-menu:hover {
     background-color: #c3829e;
-}
-
-/* Imagens */
-.logo-imagem {
-    width: 150px;
 }
 
 section img, .produto img, .personagem img {
@@ -113,11 +128,30 @@ section img, .produto img, .personagem img {
     width: 150px;
 }
 
-/* Rodapé */
 footer {
     background-color: #562135;
+    max-width: 1200px;
     color: #ffe7de;
     padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin-right: 15px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
 }
 
 footer ul li a, footer a {
@@ -126,7 +160,7 @@ footer ul li a, footer a {
     font-weight: bold;
 }
 
-footer a:hover {
+footer ul li a:hover, footer a:hover {
     color: #e9b1cd;
 }
 
