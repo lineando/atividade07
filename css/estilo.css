@@ -55,3 +55,26 @@ nav ul li a {
 nav ul li a:hover {
     color: #e9b1cd;
 }
+
+.logo-imagem {
+    width: 150px;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
