@@ -78,3 +78,37 @@ section img {
     border-radius: 8px;
 }
 
+.produto img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.personagem img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #562135;
+    color: #ffe7de;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #ffe7de;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e9b1cd;
+}
