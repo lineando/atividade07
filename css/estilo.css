@@ -27,6 +27,7 @@ header, main, footer {
     padding: 20px;
     background-color: #fcd1d7;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -45,8 +46,12 @@ nav ul li a {
     font-weight: bold;
 }
 
-nav ul li a:hover {
+nav ul li a {
     text-decoration: none;
     color: #562135;
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e9b1cd;
 }
