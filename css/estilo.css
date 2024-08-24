@@ -1,125 +1,138 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 
+/* Estilo base */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #ffe7de;
+    padding: 20px;
+    background-color: #ffffff;
     color: #562135;
     text-align: center;
-    padding: 20px;
 }
 
+/* Títulos */
 h1 {
     font-family: 'Ubuntu Condensed', sans-serif;
-    color: #562135;
 }
 
-h2, h3, h4 {
+h2 {
     font-family: 'Roboto', sans-serif;
-    color: #c3892e;
+    color: #505477;
+    font-size: 50px;
+    text-decoration: underline wavy #d3005b;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #901f3b;
+}
+
+/* Layout */
 header, main, footer {
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
-    background-color: #fcd1d7;
-    border-radius: 8px;
+    border-radius: 0;
+}
+
+header {
+    background-color: #ffc2c2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    list-style-type: none;
+main, footer {
+    background-color: #fcd1d7;
+}
+
+/* Navegação e Botões */
+.menu-navegacao, footer ul {
+    list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
-nav ul li {
-    display: inline;
+
+.menu-navegacao li, footer ul li {
     margin-right: 15px;
 }
 
-nav ul li a {
+.menu-navegacao li:last-child, footer ul li:last-child {
+    margin-right: 0;
+}
+
+.botao-menu {
     text-decoration: none;
-    color: #562135;
+    color: #ffffff;
+    background-color: #562135;
+    padding: 10px 20px;
+    border-radius: 5px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #562135;
-    font-weight: bold;
+.botao-menu:hover {
+    background-color: #c3829e;
 }
 
-nav ul li a:hover {
-    color: #e9b1cd;
-}
-
+/* Imagens */
 .logo-imagem {
     width: 150px;
-    list-style-type: none;
-    display: inline;
-    text-align: center;
 }
 
-.header {
-    width: 100%;
-    height: auto;
-}
-
-section {
-    margin: 20px 0;
-}
-
-section img {
+section img, .produto img, .personagem img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 .produto img {
-    max-width: 150px;
-    height: auto;
-    margin-bottom: 10px;
+    max-width: 200px;
 }
 
 .personagem img {
     max-width: 150px;
-    height: auto;
     border-radius: 50%;
-    margin-bottom: 10px;
 }
 
-address {
-    font-style: normal;
-    line-height: 1.6;
-    margin: 20px 0;
+#criadoras img {
+    max-width: 150px;
+    display: inline-block;
 }
 
+#criadoras ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#criadoras li {
+    text-align: center;
+    width: 150px;
+}
+
+/* Rodapé */
 footer {
     background-color: #562135;
     color: #ffe7de;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 20px;
 }
 
-footer a {
+footer ul li a, footer a {
     color: #ffe7de;
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer a:hover {
     color: #e9b1cd;
 }
 
-#criadoras, #personagens-principais {
-    text-align: left;
-}
-
 .produto, .personagem {
     display: inline-block;
-    width: 20%;
+    width: 30%;
     vertical-align: top;
     margin: 0 1%;
     box-sizing: border-box;
@@ -130,17 +143,4 @@ footer a:hover {
     transition: background-color 0.3s ease;
     border-radius: 8px;
     padding: 10px;
-}
-#criadoras img {
-    vertical-align: middle;
-    display: block;
-    margin: 0 auto;
-}
-
-#criadoras .criadora {
-    display: inline-block;
-    width: 30%;
-    margin: 0 1%;
-    vertical-align: top;
-    text-align: center;
 }
