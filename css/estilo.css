@@ -35,6 +35,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -177,6 +178,8 @@ address {
 footer {
     background-color: #562135;
     max-width: 1200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     color: #ffe7de;
     padding: 20px;
     margin: 0 auto;
@@ -226,6 +229,12 @@ footer ul li a:hover, footer a:hover {
 .produto:hover, .personagem:hover, .streaming-logo:hover {
     background-color: #e9b1cd;
     transition: background-color 0.3s ease;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.loja {
+    background-color: #fcd1d7;
     border-radius: 8px;
     padding: 10px;
 }
