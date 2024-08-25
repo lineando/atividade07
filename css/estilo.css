@@ -27,7 +27,7 @@ h2 {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    color: 	#541f1f;
+    color: #541f1f;
 }
 
 header {
@@ -53,8 +53,7 @@ header {
 }
 
 header h1 {
-    font-size: 
-    80px;
+    font-size: 80px;
     margin: 0;
 }
 
@@ -64,6 +63,14 @@ main {
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+
+main p {
+    font-size: 17px;
+    font-style: normal;
+    line-height: 1.6;
+    margin: 15px 0;
+    color: #562135;
 }
 
 .menu-navegacao, footer ul {
@@ -128,6 +135,44 @@ section img, .produto img, .personagem img {
     width: 150px;
 }
 
+address {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 15px 0;
+    color: #901f3b;
+    text-align: center;
+}
+
+.depoimentos {
+    background-color: #ffe7de;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.depoimentos h2 {
+    margin-bottom: 20px;
+}
+
+.depoimento {
+    margin-bottom: 20px;
+}
+
+.depoimento p {
+    font-style: italic;
+    color: #562135;
+    font-size: 18px;
+}
+
+.depoimento cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #901f3b;
+}
+
 footer {
     background-color: #562135;
     max-width: 1200px;
@@ -136,6 +181,11 @@ footer {
     margin: 0 auto;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 17px;
+    color: #ffe7de;
 }
 
 footer ul {
@@ -164,7 +214,7 @@ footer ul li a:hover, footer a:hover {
     color: #e9b1cd;
 }
 
-.produto, .personagem {
+.produto, .personagem  {
     display: inline-block;
     width: 30%;
     vertical-align: top;
@@ -172,9 +222,23 @@ footer ul li a:hover, footer a:hover {
     box-sizing: border-box;
 }
 
-.produto:hover, .personagem:hover {
+.produto:hover, .personagem:hover, .streaming-logo:hover {
     background-color: #e9b1cd;
     transition: background-color 0.3s ease;
     border-radius: 8px;
     padding: 10px;
+}
+
+.loja {
+    max-width: 45%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+}
+
+.loja:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
